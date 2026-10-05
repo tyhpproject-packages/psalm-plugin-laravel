@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/psalm-plugin-laravel",
+    "description": "Tyhp type definitions for psalm/plugin-laravel 4.16.1.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "4.16.1",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/psalm-plugin-laravel-impl": "~4.16.1.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/psalm-plugin-laravel-impl"
+        }
+    }
+}
